@@ -1,0 +1,33 @@
+html {
+    font-size: 10px; /* px 表示 “像素（pixels）”: 这个基础字号现在高10像素 */
+    font-family: 'Allerta Stencil', sans-serif; /* 剩下的部分是你从 Google fonts 上获取的输出 */
+    background-color: #D4F6F1;
+}
+
+h1{
+    font-size: 40px;  /*字体大小*/
+    text-align: center;  /*对齐方式*/
+    margin: 0 20px;  /*上下边距 左右边距*/ /*外边距*/
+    padding: 20px 0;
+    color: #A9A9EE;
+    text-shadow: 3px 3px 1px green;
+}
+
+p,li{
+    font-size: 10px;  /*字体大小*/
+    line-height: 2;  /*行高*/
+    letter-spacing: 1px;  /*字符水平间距*/
+}
+
+body{
+    width: 600px;
+    margin: 0px auto;
+    background-color: azure;
+    padding: 0px 20px 100px 20px; /*上 右 下 左*/ /*内边距*/
+    border: 2px solid black;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
