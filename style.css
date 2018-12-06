@@ -1,33 +1,139 @@
-html {
-    font-size: 10px; /* px 表示 “像素（pixels）”: 这个基础字号现在高10像素 */
-    font-family: 'Allerta Stencil', sans-serif; /* 剩下的部分是你从 Google fonts 上获取的输出 */
-    background-color: #D4F6F1;
+body {
+    background: rgb(0,125,184);
+    position: relative;
+    margin: 0;
 }
 
-h1{
-    font-size: 40px;  /*字体大小*/
-    text-align: center;  /*对齐方式*/
-    margin: 0 20px;  /*上下边距 左右边距*/ /*外边距*/
-    padding: 20px 0;
-    color: #A9A9EE;
-    text-shadow: 3px 3px 1px green;
+header {
+    height: 53px;
+    border-bottom: 1px solid rgb(0,135,199)
 }
 
-p,li{
-    font-size: 10px;  /*字体大小*/
-    line-height: 2;  /*行高*/
-    letter-spacing: 1px;  /*字符水平间距*/
+.logo {
+    float: left;
+    margin-top: 5px;
+    margin-left: 268px;
 }
 
-body{
-    width: 600px;
-    margin: 0px auto;
-    background-color: azure;
-    padding: 0px 20px 100px 20px; /*上 右 下 左*/ /*内边距*/
-    border: 2px solid black;
+header form input {
+    margin-top: 11px;
+    margin-left: 35px;
+    height: 25px;
+    width: 610px;
+    position: absolute;
 }
 
-img{
+header form button {
+    background: rgb(0,125,184);
+    border-style: none;
+    position: absolute;
+    font-size: 13px;
+    color: white;
+    top: 13px;
+    left: 917px;
+    height: 28px;
+    width: 44px;
+}
+
+.login img {
+    float: left;
+    margin-top: 10px;
+    margin-left: 700px
+}
+
+.login span {
+    float: left;
+    margin-top: 15px;
+    margin-left: 2px;
+    color: white;
+}
+
+.shoppingcar img {
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.shoppingcar span {
+    float: left;
+    margin-top: 15px;
+    margin-left: 2px;
+    color: white;
+}
+
+.login:hover {
+    filter:opacity(70%);
+}
+
+.shoppingcar:hover {
+    filter: opacity(70%);
+}
+
+nav {
+    height: 50px;
+}
+
+nav ul {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.first {
     display: block;
-    margin: 0 auto;
+}
+
+.second {
+    display: none;
+}
+
+.third {
+    display: none;
+}
+
+.fourth {
+    display: none;
+}
+
+.images {
+    height: 518px;
+}
+
+.button ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.button ul li {
+    float: left;
+    list-style-type: none;
+    border: 1px solid gray;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 13px;
+    height: 20px;
+    color: rgb(0,90,133);
+}
+
+.button {
+    background-color: white;
+}
+
+.button ul li:hover {
+    background-color: rgb(238,238,238);
 }
