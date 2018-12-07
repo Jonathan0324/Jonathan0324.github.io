@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>戴尔官方网站 | Dell 中国大陆</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script src="script.js" type="text/javascript"></script>
+    </head>
+    
+    <body>
+        <div class="top">
+            <header>
+                <a href="">
+                    <img src="images/logo.png" width="45px" height="45px" class="logo">
+                </a>
+
+                <form>
+                    <input type="text" id="search" name="search" placeholder="限时特惠">
+                    <button type="submit">
+                         <span>搜索</span>
+                    </button>
+                </form>
+
+                <div class="login">
+                    <a href="">
+                        <img src="images/login.png" height="33px" width="33px">
+                        <span>登陆</span>
+                    </a>
+                </div>
+
+                <div class="shoppingcar">
+                    <a href="">
+                        <img src="images/shoppingcar.png" height="33px" width="33px">
+                        <span>购物车</span>
+                    </a>
+                </div>
+            </header>
+
+            <nav>
+                <ul>
+                    <li><a href="">产品</a></li>
+                    <li><a href="">解决方案</a></li>
+                    <li><a href="">服务</a></li>
+                    <li><a href="">支持</a></li>
+                    <li><a href="">热卖促销</a></li>
+                </ul>
+            </nav>
+
+            <div class="images">
+                <div class="first" id="first">
+                    <a href="">
+                        <img src="images/1.jpg" width="1519px" alt="轻薄靓机 同价11.11">
+                    </a>
+                    <div class="tip-a1">
+                        <p>12.12 官网特权日 同价11.11</p>
+                        <p>轻薄本 4799 元 起|游戏本 6799 元 起！</p>
+                        <button type="button"><a href="">立即抢购</a></button>
+                    </div>
+                </div>
+
+                <div class="second" id="second">
+                    <a href="">
+                        <img src="images/2.jpg" width="1519px" alt="购指定产品送3年全天候专业服务！">
+                    </a>
+                    <div class="tip-a2">
+                        <p>IT设备生机换新， 年末创收火力全开</p>
+                        <p>购指定产品送3年全天候专业服务，更有最低加1元赠300G硬盘！</p>
+                        <p>周周享优惠，聚惠在周三！</p>
+                        <button type="button"><a href="">立即抢购</a></button>
+                        <button type="button"><a href="">咨询优惠详情</a></button>
+                    </div>
+                </div>
+
+                <div class="third" id="third">
+                    <a href="">
+                        <img src="images/3.jpg" width="1519px" alt="戴尔易安信14G PowerEdge第四批新品隆重上市">
+                    </a>
+                    <div class="tip-a3">
+                        <p>戴尔易安信14G PowerEdge第四批新品隆重上市</p>
+                        <p>R740xd2 二路存储型服务器、R240&R340机架型服务器、T140&T340塔式服务器</p>
+                        <button type="button"><a href="">了解详情</a></button>
+                    </div>
+                </div>
+
+                <div class="fourth" id="fourth">
+                    <a href="">
+                        <img src="images/4.jpg" width="1519px" alt="您感兴趣的产品是？">
+                    </a>
+                    <div class="tip-a4">
+                        <p>您感兴趣的产品是？</p>
+                        <select name="product">
+                            <option selected>我感兴趣的是</option>
+                            <option>笔记本</option>
+                            <option>台式机</option>
+                            <option>ALIENWARE外星人</option>
+                            <option>工作站</option>
+                            <option>服务器，存储及网络交换机</option>
+                            <option>显示器</option>
+                            <option>外设产品</option>
+                            <option>热卖促销</option>
+                        </select>
+                        
+                        <select name="use">
+                            <option selected>家用或商用</option>
+                            <option>家庭与个人</option>
+                            <option>商用</option>
+                        </select>
+                        
+                        <button disabled="disabled"><a href="">立即前往</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="button">
+                <ul>
+                    <li onclick="swap('first')"><label>12.12 官网特权日 同价11.11</label></li>
+                    <li onclick="swap('second')"><label>购指定产品送3年全天候专业服务！</label></li>
+                    <li onclick="swap('third')"><label>戴尔易安信14G PowerEdge第四批新品隆重上市</label></li>
+                    <li onclick="swap('fourth')"><label>您感兴趣的产品是？</label></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="bottom">
+            <div class="background">
+                <label class="a" id="a"></label>
+                <label class="b" id="b"></label>
+                <label class="c" id="c"></label>
+                <label class="d" id="d"></label>
+            </div>
+            
+            <p>浏览主要产品</p>
+            
+            <div class="products">
+                <div class="product">
+                    <a href="">
+                        <img src="images/a1.png" alt="笔记本">
+                        <p>笔记本</p>
+                    </a>
+                </div>
+
+                <div class="product">
+                    <a href="">
+                        <img src="images/a2.png" alt="台式机">
+                        <p>台式机</p>
+                    </a>
+                </div> 
+
+                <div class="product">
+                    <a href="">
+                        <img src="images/a3.png" alt="工作站">
+                        <p>工作站</p>
+                    </a>
+                </div> 
+
+                <div class="product">
+                    <a href="">
+                        <img src="images/a4.png" alt="服务器">
+                        <p>服务器</p>
+                    </a>
+                </div>  
+
+                <div class="product">
+                    <a href="">
+                        <img src="images/a5.jpg" alt="显示器">
+                        <p>显示器</p>
+                    </a>
+                </div>
+
+                <div class="product">
+                    <a href="">
+                        <img src="images/a6.jpg" alt="电脑配件">
+                        <p>电脑配件</p>
+                    </a>
+                </div>
+            </div>
+            
+            <p>本季精选</p>
+            
+            <div class="special-choice">
+                <img src="images/b1.jpg" alt="千元钜惠" id="special1">
+                <img src="images/b2.jpg" alt="企采特价 官网专享" id="special2">
+            </div>
+            
+            <div class="order">
+                <button type="button"><a href="">立即预定</a></button>
+                <button type="button"><a href="">了解详情</a></button>
+            </div>
+            
+            <div class="bottom-images-row1">
+                <div>
+                    <a href="">
+                        <img src="images/c1.jpg" width="585px" height="192px" alt="全新ALIENWARE AURORA R8">
+                    </a>
+                    
+                    <div class="tip-b1">
+                        <p><a href="">全新ALIENWARE AURORA R8</a></p>
+                        <p><a href="">高配可搭载全新九代八核i9-9900K处理器及NVIDIA®GeForce®RTX™2080Ti显卡！</a></p>
+                        <a href="">了解详情</a>
+                    </div>
+                </div>
+                
+                <div id="bottom-images-row1-img2">
+                    <a href="">
+                        <img src="images/c2.jpg" width="585px" height="192px" alt="独具匠心，功“成铭”就">
+                    </a>
+                    
+                    <div class="tip-b2">
+                        <p><a href="">独具匠心，功“成铭”就</a></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bottom-images-row2">
+                <div class="tip-b3">
+                    <img src="images/c3.jpg" width="292.5px" height="192px" id="one">
+                    <p><a href="">戴尔支持：根据您的产品，诊断或下载驱动程序。</a></p>
+                </div>
+                <div class="tip-b4">
+                    <img src="images/c4.jpg" width="292.5px" height="192px" id="two">
+                    <p><a href="">全演进，启未来--戴尔推出下一代全球畅销的第14代PowerEdge服务器产品组合，助力用户构建现代化数据中心</a></p>
+                </div>
+                <div class="tip-b5">
+                    <img src="images/c5.jpg" width="292.5px" height="192px" id="three">
+                    <p><a href="">Vostro 成就5581轻薄性能商务本上市了！</a></p>
+                </div>
+                <div class="tip-b6">
+                    <img src="images/c6.jpg" width="292.5px" height="192px" id="four">
+                    <p><a href="">VxRail超融合让IT更简单</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <nav>
+                <ul>
+                    <a href=""><li>关于戴尔</li></a>
+                    <a href=""><li>工作机会</li></a>
+                    <a href=""><li>社区</li></a>
+                    <a href=""><li>活动</li></a>
+                    <a href=""><li>合作伙伴计划</li></a>
+                    <a href=""><li>Dell Technologies</li></a>
+                </ul>
+                <img src="images/China-flag.jpg" width="20px" height="20px" id="China-flag">
+                <select>
+                    <option>CIS</option>
+                    <option>不丹 | Bhutan</option>
+                    <option>中东 | Middle East</option>
+                    <option>中国台湾 | 台灣</option>
+                    <option selected>中国大陆地区</option>
+                    <option>中国香港特别行政区 | 香港 | HongKong</option>
+                </select>
+            </nav>
+            
+            <div class="footer-bottom">
+                <ul>
+                    <a href=""><li>版权 1999-2018 戴尔公司 (Dell Inc.)仅适用于中国客户的内容设计 版权所有</li></a>
+                    <a href=""><li>条款和条件</li></a>
+                    <a href=""><li>隐私政策</li></a>
+                    <a href=""><li>法律法规</li></a>
+                    <a href=""><li>企业社会责任</li></a>
+                    <a href=""><li>联系我们</li></a>
+                    <a href=""><li>反馈</li></a>
+                    <a href=""><li>闽ICP备05032923号-1</li></a>
+                    <a href=""><li>闽公网安备35020602001252</li></a>
+                    <a href=""><li>营业执照 913502006120204831</li></a>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
